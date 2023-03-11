@@ -1,13 +1,13 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
- * _puts - prints a string to stdout
- *
- * @str: the string to be printed
+ * _puts - Outputs a string to the standard output stream
+ * @str: The string to output
  */
 void _puts(char *str)
 {
-    /* implementation of the _puts function */
+	printf("%s\n", str);
 }
 
 /**
@@ -17,6 +17,6 @@ void _puts(char *str)
  */
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");
+	_puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
